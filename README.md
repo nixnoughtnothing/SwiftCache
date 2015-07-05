@@ -9,7 +9,7 @@
  
   <----------------------------------- Queue ------------------------------------>
  
-    item                    item                    item                    item
+  (MRU)item                 item                    item                  (LRU)item 
    ______                  ______                  ______                  ______
   | head | older(next) => |      | older(next) => |      | older(next) => | tail |
   |  A   |                |  B   |                |  C   |                |  D   |
