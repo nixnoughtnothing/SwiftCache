@@ -14,6 +14,7 @@
 		5B50B3C11B45961900444F2C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B50B3BF1B45961900444F2C /* LaunchScreen.xib */; };
 		5B50B3CD1B45961A00444F2C /* SwiftCacheTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B50B3CC1B45961A00444F2C /* SwiftCacheTests.swift */; };
 		5B50B3D91B47E2F800444F2C /* SwiftCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B50B3D81B47E2F800444F2C /* SwiftCache.swift */; };
+		5B50B3DC1B49611700444F2C /* SwiftCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B50B3D81B47E2F800444F2C /* SwiftCache.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -225,6 +226,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B50B3DC1B49611700444F2C /* SwiftCache.swift in Sources */,
 				5B50B3CD1B45961A00444F2C /* SwiftCacheTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

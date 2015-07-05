@@ -226,18 +226,19 @@ class SwiftCache<Key:Hashable,Value> {
         return description
     }
     
-    func getAllCache() -> [Key:UIImage] {
-        
-        var cachedImages = [Key:UIImage]()
-        var current = self.queue.head
-        
-        while current != nil {
-            
-            cachedImages[current!.key] = current!.value
-            current = current?.next
-        }
-        return cachedImages
-    }
-    
+// TODO:getAllする場合、要素の順番がLRU順になっていないので、要修正
+//    func getAll() -> [Key:UIImage] {
+//        
+//        var cachedImages = [Key:UIImage]()
+//        var current = self.queue.head
+//        
+//        while current != nil {
+//            
+//            cachedImages[current!.key] = current!.value
+//            current = current?.next
+//        }
+//        return cachedImages
+//    }
+//    
     // TODO: 1) toJSON(), 2) multiThread,
 }
