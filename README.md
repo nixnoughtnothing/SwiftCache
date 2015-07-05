@@ -83,6 +83,7 @@ cache.itemCount //=> e.g. 3
 cache.maxCount //=> e.g. 10
 ```
 
+# Tests
 
 
 
