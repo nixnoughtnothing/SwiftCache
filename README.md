@@ -31,6 +31,16 @@ Just drag and drop the `SwiftCache.swift` file in the `SwiftCache` folder into `
 
 # Usage
 
+### New (maxCount:Int)
+
+```swift
+var cache = SwiftCache<String, UIImage>()
+
+or 
+
+var cache = SwiftCache<String, UIImage>(maxCount: 10)
+```
+
 ### Set(Key, imageUrlString)
 Adds the specified item to the cache with the specified key and imageUrlString
 ```swift 
