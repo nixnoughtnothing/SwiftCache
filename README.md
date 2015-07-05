@@ -4,8 +4,6 @@
   
   ```
   A doubly linked linear list + hashTable of pointers to the linked list items  
-  When you need to remove a value from the cache, you remove from the tail end.  
-  When you add a value to cache, you just place it at the head of the LinkedList(Queue).  
   
   Illustration of the design:
  
