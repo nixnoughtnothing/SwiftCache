@@ -34,11 +34,9 @@ Just drag and drop the `SwiftCache.swift` file in the `SwiftCache` folder into `
 ### New (maxCount:Int)
 
 ```swift
-var cache = SwiftCache<String, UIImage>()
-
+var cache = SwiftCache<String, UIImage>() // The default is 10
 or 
-
-var cache = SwiftCache<String, UIImage>(maxCount: 10)
+var cache = SwiftCache<String, UIImage>(maxCount: 5)
 ```
 
 ### Set(Key, imageUrlString)
