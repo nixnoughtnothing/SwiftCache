@@ -3,7 +3,7 @@
 //  SwiftCache
 //
 //  Created by nixnoughtnothing on 7/4/15.
-//  Copyright (c) 2015 Sttir Inc. All rights reserved.
+//  Copyright (c) nix nought nothing All rights reserved.
 //
 
 
@@ -12,9 +12,6 @@
 *   - A data structure for LRU Cache written in Swift -
 *
 *   A doubly linked linear list + hashTable of pointers to the linked list items
-*   When you need to remove a value from the cache, you remove from the tail end.
-*   When you add a value to cache, you just place it at the head of the LinkedList(Queue).
-*
 *
 *   Illustration of the design:
 *
