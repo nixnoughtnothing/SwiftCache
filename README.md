@@ -8,6 +8,15 @@
   When you add a value to cache, you just place it at the head of the LinkedList(Queue).  
   ```
 
+# Installation
+#### CocoaPods
+coming soon
+
+
+#### Manually
+Just drag and drop the `SwiftCache.swift` file in the `SwiftCache` folder into `your project`.
+
+
 # Usage
 
 ### Set(Key, imageUrlString)
