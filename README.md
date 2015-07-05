@@ -9,7 +9,7 @@
 # Usage
 
 ### Set(Key, imageUrlString)
-Adds the specified item to the cache with the specified key.
+Adds the specified item to the cache with the specified key and imageUrlString
 ```swift 
 cache.set("foo", urlString: "https://foo/foo.png")
 ```
