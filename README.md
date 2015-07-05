@@ -84,6 +84,7 @@ cache.maxCount //=> e.g. 10
 ```
 
 # Tests
+Open the Xcode project and press `⌘-U` to run the tests.
 
 
 
