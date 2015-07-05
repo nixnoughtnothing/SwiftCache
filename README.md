@@ -54,7 +54,7 @@ cache.get("foo") //=> <UIImage: 0x7f97a8799b20>, {100, 100}
 ```swift 
 println(cache.display()) 
 
-/*=>
+/*
 ------ Current Cached Items ------- 
 
 ---Head--- 
