@@ -107,7 +107,7 @@ class SwiftCache<Key:Hashable,Value> {
     
     var maxCount:Int  // MAXINUM Limit(Cached Item)
     var itemCount = 0 // Number of Cached Item
-    private let queue: Queue<Key, Value>
+    internal let queue: Queue<Key, Value> // private propetyにしたほうがよいかも
     private var hashTable: [Key : Item<Key, UIImage>] // Dictionary Type
     
     
