@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.homepage = "https://github.com/nixnoughtnothing/SwiftCache"
   s.social_media_url = "http://twitter.com/Ryoh778"
   s.authors = { "Ryoh Tsukahara" => "ryoh.t778@gmail.com" }
-  s.source = { :git => "https://github.com/nixnoughtnothing/SwiftCache.git", :branch => "master",:tag => "master" }
+  s.source = { :git => "https://github.com/nixnoughtnothing/SwiftCache.git", :branch => "master",:tag => s.version }
   s.ios.deployment_target = "8.0"
   s.source_files = "SwiftCache/*.swift"
   s.requires_arc = true
