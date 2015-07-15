@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name = "SwiftCache"
+  s.name = "SwiftCacheLRU"
   s.version = '0.1.0'
   s.license = { :type => 'MIT', :file => 'LICENSE.txt' }
   s.summary = "A data structure for Least Recently Used (LRU) image cache"
