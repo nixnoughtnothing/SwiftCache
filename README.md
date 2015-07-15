@@ -20,8 +20,20 @@
 
 # Installation
 #### CocoaPods
-coming soon
+In your Podfile,
+```
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '8.0'
+use_frameworks!
 
+pod 'SwiftCache', '~> 0.1.0'
+```
+
+Then, run the following command:
+
+```
+$ pod install
+```
 
 #### Manually
 Just drag and drop the `SwiftCache.swift` file in the `SwiftCache` folder into `your project`.
